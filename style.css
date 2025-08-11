@@ -1,0 +1,185 @@
+/*
+    Colours
+    navbar: 0E1116 Rich Black FOGRA 29
+    title: 374A67 Independence
+    page background: 616283 Dark Blue Gray
+    9E7B9B Mountbatten Pink
+    page content: F6EDFD Magnolia
+*/
+
+#page{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #616283;
+}
+
+footer{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;
+}
+
+@media screen and (min-width: 40em){
+    #page{
+        max-width: 50em;
+    }
+    footer{
+        max-width: 50em;
+    }
+}
+
+@media screen and (min-width: 64em){
+    #page{
+        max-width: 75em;
+    }
+    footer{
+        max-width: 50em;
+    }
+}
+
+.pagecontent{
+    padding: 1em;
+    background-color: #F6EDFD;
+    display: grid;
+}
+
+.contentleft img{
+    float: left;
+}
+
+.contentright img{
+    float: right;
+}
+
+.centerblock{
+    margin-top: 13%;
+}
+
+.row {
+    display: flex;
+  }
+  
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.caption {
+    display: block;
+}
+
+td.icon{
+    width: 300px;
+}
+td.name{
+    padding: 0px 200px;
+    font-size: 2em;
+    font-weight: bold;
+}
+table.listings{
+    margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6, li, footer, p, table.listings{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+h1.a:hover {
+    color:#00A0C6; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+h1, h2, h3 {
+    text-align: center; 
+}
+
+ul{
+    display: table;
+    margin: 0 auto;
+}
+
+.titlebar{
+    background-color: #374A67;
+}
+
+p{
+    text-align: center; 
+}
+
+footer p {
+    padding: 1em;
+    text-align: right;
+}
+
+.dbtable{
+    border: 1px solid;  
+}
+table.dbtable{
+    width: 100%;
+    border-collapse: collapse;  
+}
+div.dbtables{
+    margin: 1% 5%;
+}
+ 
+ul.navbar{
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+    background-color: #0E1116;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ 
+li.navlist{
+    display: inline;
+    float: inline-start;
+}
+ 
+li.navlist a {
+    display: inline-block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 15px 15px;
+}
+ 
+li.navlist a:hover{
+    background-color: black;
+}
+ 
+li.navlist a.active{
+    background-color: #9E7B9B;
+}
+
+body, html {
+    height: 100%;
+    background-color:#616283;;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/P1000157.JPG");
+    height: 40%;
+    margin: auto;
+    max-width: 75em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position-y: 0em;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
